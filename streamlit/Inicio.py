@@ -4,8 +4,6 @@ import sys
 sys.path.append('..')
 from src.utils.constantes import DATASET_INDIVIDUALES, DATASET_HOGARES, NOMBRE_APP
 
-from src.utils.constantes import DATASET_INDIVIDUALES, DATASET_HOGARES, NOMBRE_APP
-
 
 st.set_page_config(page_title=NOMBRE_APP+' '+'Inicio',page_icon="🏠")
 st.title(NOMBRE_APP)
