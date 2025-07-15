@@ -1,0 +1,17 @@
+		   Licencia del proyecto DATArg
+		       Versión 2.0.69, Jun 2025
+               
+Copyright (c) 2025 Acosta, Cuervo, Foresio, Iarragorri y Salvagni
+
+Este proyecto fue desarrollado con fines educativos como parte de una actividad académica.
+Lo compartimos para que otras personas puedan revisarlo, aprender de él o reutilizar partes
+del código si les sirve.
+Este proyecto utiliza bases de datos públicas provistas por el INDEC, correspondientes a la 
+Encuesta Permanente de Hogares (EPH). La fuente original de estos datos es el sitio oficial 
+del INDEC (www.indec.gob.ar), y su uso en este proyecto es con fines exclusivamente educativos.
+
+
+-----------------------------------------------------------------------
+NOTA:
+Como todavía está en desarrollo y no es un producto terminado, no ofrecemos garantías sobre
+su funcionamiento.
