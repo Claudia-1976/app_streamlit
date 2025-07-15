@@ -1,6 +1,6 @@
 from pathlib import Path
 
-ROOT_FOLDER = Path(__file__).parent.parent.parent.parent # Path al directorio raiz del proyecto
+ROOT_FOLDER = Path(__file__).parent.parent.parent # Path al directorio raiz del proyecto
 
 PATH_FOLDER = ROOT_FOLDER / 'files' / 'data_in' # Path a la carpeta de trimestres
 
