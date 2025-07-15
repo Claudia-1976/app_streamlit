@@ -1,4 +1,5 @@
 [theme]
+base ="light"
 backgroundColor="#2b4958"
 secondaryBackgroundColor="#71868e"
 textColor="#fff"
