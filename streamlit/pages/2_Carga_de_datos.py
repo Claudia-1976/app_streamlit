@@ -2,8 +2,8 @@
 import streamlit as st
 from st_flexible_callout_elements import flexible_warning,flexible_success
 import sys
-
-sys.path.append('..')
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 from src.utils.funciones_streamlit import obtener_rango_temporal, actualizar_y_mostrar
 from src.utils.funciones_archivos import archivos_faltantes
