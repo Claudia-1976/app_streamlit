@@ -1,8 +1,8 @@
 from pathlib import Path
 
-ROOT_FOLDER ='/mount'
+ROOT_FOLDER = Path(__file__).parent.parent.parent.parent # Path al directorio raiz del proyecto
 
-PATH_FOLDER = '/mount' / 'files' / 'data_in' # Path a la carpeta de trimestres
+PATH_FOLDER = ROOT_FOLDER / 'files' / 'data_in' # Path a la carpeta de trimestres
 
 DATASET_INDIVIDUALES = ROOT_FOLDER / 'files' / 'data_out' / 'dataset_individuales.csv' # Carpeta donde se va a guardar el dataset de individuos
 
