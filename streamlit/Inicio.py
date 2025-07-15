@@ -1,9 +1,9 @@
 import streamlit as st
 import sys
+import os
 
-sys.path.append('..')
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.utils.constantes import DATASET_INDIVIDUALES, DATASET_HOGARES, NOMBRE_APP
-
 
 st.set_page_config(page_title=NOMBRE_APP+' '+'Inicio',page_icon="🏠")
 st.title(NOMBRE_APP)
